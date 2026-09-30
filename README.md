@@ -1,4 +1,4 @@
-# Day 5 — Meeting Intelligence Assistant (MIA)
+# Meeting Intelligence Assistant (MIA)
 
 Working prototype: **[open the app](https://claude.ai/artifact/Lpe7s9QWWPkXwnMsiGdjQp)**
 
