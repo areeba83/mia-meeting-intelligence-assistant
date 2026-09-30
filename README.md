@@ -26,11 +26,10 @@ every claim.
 - Single self-contained HTML/CSS/JS page — no backend, no build step, no
   API key of my own to manage. The model call goes through the artifact
   platform's built-in `sample` capability, which is exactly the "isolate
-  provider-specific code behind a small function" requirement in SRS
-  Section 11 — the whole model call is one function (`sampleAPI.json(...)`),
-  swappable without touching the UI.
+  provider-specific code behind a small function" — the whole model call
+  is one function (`sampleAPI.json(...)`),swappable without touching the UI.
 - The prompt is stored as a plain JS string, separate from the UI code
-  (SRS Section 11 / Section 16's "the prompt itself is saved as a reusable
+  ("the prompt itself is saved as a reusable
   asset").
 - Error states covered: empty input (blocked before any call), no model
   access, rate limiting, unparseable JSON (raw reply shown for debugging),
@@ -49,7 +48,7 @@ every claim.
 ## Limitations
 
 - No live transcription, calendar/Slack integration, auth, or persistent
-  storage — matches the SRS's explicit non-goals (Section 4).
+  storage.
 - The `sample` capability caps a single call at 64 KiB of input text, so a
   very long transcript would need to be chunked — not implemented, since
   none of the five test scenarios approach that size.
