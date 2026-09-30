@@ -6,7 +6,7 @@ Working prototype: **[open the app](https://claude.ai/artifact/Lpe7s9QWWPkXwnMsi
 
 MIA turns pasted meeting notes into structured decisions, action items,
 risks, open questions, and ambiguities — conservatively, with evidence for
-every claim, per the SRS's output contract (Section 8).
+every claim.
 
 ## How to use it
 
